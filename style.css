@@ -36,9 +36,9 @@ header {
   background-size: center;
   background-position: center;
   padding: 9rem 0 9rem 0;
-  
+
   color: var(--base-color);
-  text-align: center;  
+  text-align: center;
 }
 
 header h1 {
@@ -55,35 +55,36 @@ header h2 {
 }
 
 footer {
-    background: var(--base-color);
-    text-align: center;
-  }
-  
-  footer.section {
-    padding: 3rem;
-  }
-  
-  footer .brand p, span {
-    font-size: 0.9rem;
-    color: var(--text-color-light);
-    margin-bottom: 0.8rem;
-  }
+  background: var(--base-color);
+  text-align: center;
+}
 
-  footer .brand p span {
-    font-weight: bold;
-    color: var(--title-color);
-  }
-  
-  footer i {
-    font-size: 1.5rem;
-    color: var(--text-color-light);
-  }
+footer.section {
+  padding: 3rem;
+}
 
-  footer .social a {
-    transition: 0.3s;
-    display: inline-block;
-  }
-  
-  footer .social a:hover {
-    transform: translateY(-8px);
-  }
+footer .brand p,
+span {
+  font-size: 0.9rem;
+  color: var(--text-color-light);
+  margin-bottom: 0.8rem;
+}
+
+footer .brand p span {
+  font-weight: bold;
+  color: var(--title-color);
+}
+
+footer i {
+  font-size: 1.5rem;
+  color: var(--text-color-light);
+}
+
+footer .social a {
+  transition: 0.3s;
+  display: inline-block;
+}
+
+footer .social a:hover {
+  transform: translateY(-8px);
+}
