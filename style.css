@@ -34,7 +34,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding: 13rem;
+  padding: 9rem 0 9rem 0;
   max-width: 100%;
   
   color: var(--base-color);
@@ -42,16 +42,16 @@ header {
 }
 
 header h1 {
-  font-size: 1rem;
+  font-size: 4rem;
 }
 
 header h1 span {
   color: var(--base-color-alt);
-  font-size: 1rem;
+  font-size: 3.5rem;
 }
 
 header h2 {
-  font-size: 1rem;
+  font-size: 3rem;
 }
 
 footer {
