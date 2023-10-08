@@ -35,7 +35,6 @@ header {
   background-size: cover;
   background-position: center;
   padding: 9rem 0 9rem 0;
-  max-width: 100%;
   
   color: var(--base-color);
   text-align: center;  
