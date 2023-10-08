@@ -37,7 +37,7 @@ header {
   background-position: center;
   padding: 9rem 0 9rem 0;
 
-  color: var(--base-color);
+  color: var(--title-color);
   text-align: center;
 }
 
@@ -46,7 +46,7 @@ header h1 {
 }
 
 header h1 span {
-  color: var(--base-color-alt);
+  color: var(--base-color);
   font-size: 3.5rem;
 }
 
