@@ -1,0 +1,88 @@
+/*  Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins';
+  font-size: 16px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Colors */
+:root {
+  --hue: 342;
+  /* HSL color mode */
+  --base-color: hsl(var(--hue) 35% 31%);
+  --base-color-second: hsl(var(--hue) 35% 48%);
+  --base-color-alt: hsl(var(--hue) 33% 64%);
+  --title-color: hsl(var(--hue) 42% 85%);
+  --text-color: hsl(0 0% 46%);
+  --text-color-light: hsl(0 0% 98%);
+  --body-color: hsl(0 0% 98%);
+
+}
+
+header {
+  background-image: url(./assents/imagens/alianças-de-casamento-em-ouro-amarelo-1200x799.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 3rem;
+  
+  color: var(--base-color);
+  text-align: center;  
+}
+
+header h1 {
+  font-size: 1rem;
+}
+
+header h1 span {
+  color: var(--base-color-alt);
+  font-size: 1rem;
+}
+
+header h2 {
+  font-size: 1rem;
+}
+
+footer {
+    background: var(--base-color);
+    text-align: center;
+  }
+  
+  footer.section {
+    padding: 0.3rem;
+  }
+  
+  footer .brand p, span {
+    font-size: 0.5rem;
+    color: var(--text-color-light);
+    margin-bottom: 0.2rem;
+  }
+
+  footer .brand p span {
+    font-weight: bold;
+    color: var(--title-color);
+  }
+  
+  footer i {
+    font-size: 1rem;
+    color: var(--text-color-light);
+  }
+
+  footer .social a {
+    transition: 0.3s;
+    display: inline-block;
+  }
+  
+  footer .social a:hover {
+    transform: translateY(-8px);
+  }
