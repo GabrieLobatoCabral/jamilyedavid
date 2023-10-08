@@ -34,7 +34,8 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding: 3rem;
+  padding: 13rem;
+  max-width: 100%;
   
   color: var(--base-color);
   text-align: center;  
@@ -59,13 +60,13 @@ footer {
   }
   
   footer.section {
-    padding: 0.3rem;
+    padding: 3rem;
   }
   
   footer .brand p, span {
-    font-size: 0.5rem;
+    font-size: 0.9rem;
     color: var(--text-color-light);
-    margin-bottom: 0.2rem;
+    margin-bottom: 0.8rem;
   }
 
   footer .brand p span {
@@ -74,7 +75,7 @@ footer {
   }
   
   footer i {
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: var(--text-color-light);
   }
 
