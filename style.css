@@ -669,6 +669,10 @@ li {
   list-style: none;
 }
 
+#grifado {
+  text-decoration: line-through;
+}
+
 @media(max-width: 1024px) {
   #present {
     padding: 2rem 8rem;
