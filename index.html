@@ -1,60 +1,331 @@
 <!DOCTYPE html>
-<html lang="pt br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<html lang="pt_BR">
 
-    <link
-    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
-    rel="stylesheet"
-    />
-    
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="./assents/icon/style.css" />  
-    <link rel="stylesheet" href="./assents/loading/style.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
+<head>
+  <!-- PAGE INFO -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="./assents/imagens/LOGO_2.png" />
 
-    <link rel="icon" type="image/png" href="./assents/imagens/LOGO_1.png" />
-    
-    <title>Jamily & David</title>
-  </head>
-  <body>
-    <header>
-      <h1>Jamily <span>&</span> David</h1>
-      <div class="loading">
-        <div class="hourglassBackground">
-          <div class="hourglassContainer">
-            <div class="hourglassCurves"></div>
-            <div class="hourglassCapTop"></div>
-            <div class="hourglassGlassTop"></div>
-            <div class="hourglassSand"></div>
-            <div class="hourglassSandStream"></div>
-            <div class="hourglassCapBottom"></div>
-            <div class="hourglassGlass"></div>
-          </div>
+  <title>Jamily & David</title>
+
+  <!-- Icones -->
+  <link rel="stylesheet" href="./assents/icon/style.css" />
+
+  <!-- Swiper -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+  <!-- STYLES -->
+  <link rel="stylesheet" href="./assents/loading/styleloading.css" />
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inria+Serif:wght@300;400;700&family=Roboto:wght@100;300;400;700&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <header id="header">
+    <nav class="container">
+      <img src="./assents/imagens/LOGO_2.png" alt="logo j e d" class="logo" />
+      <!-- menu -->
+      <div class="menu">
+        <ul class="grid">
+          <li><a class="title" href="#welcome">Boas-vindas</a></li>
+          <li><a class="title" href="#sobre">Sobre o casal</a></li>
+          <li><a class="title" href="#event">O evento</a></li>
+          <li><a class="title" href="#confirmacao">Confirmação de presença</a></li>
+          <li><a class="title" href="#present">Lista de Presentes</a></li>
+          <li><a class="title" href="#mensage">Mensagens</a></li>
+        </ul>
+      </div>
+      <!-- /menu -->
+      <div class="toggle icon-menu"></div>
+      <div class="toggle icon-close"></div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <div class="capa">
+        <h1 class="name">David</h1>
+        <span class="ampersand">&</span>
+        <h1 class="name">Jamily</h1>
+        <p class="text">15/12/2023</p>
+      </div>
+    </section>
+
+    <section id="welcome">
+      <h1>Sejam bem-vindos ao nosso site!</h1>
+      <h3>
+        A MELHOR FORMA DE COMPARTILHAR ESSE MOMENTO COM VOCÊS É UNINDO SONHOS.
+      </h3>
+      <img src="./assents/imagens/3.png" alt="flores" />
+      <h3>
+        Olá querido convidado, fizemos essa plataforma para você ficar informado sobre nosso casamento que estamos
+        preparando com muito amor e carinho. &#128149 <br> <br>
+        Estamos felizes em compartilhar esse passo tão especial em nossa história, e dividir esse momento especial com
+        você é o que mais desejamos.
+      </h3>
+    </section>
+
+
+    <section id="sobre">
+      <div class="fotocasal">
+        <img src="./assents/imagens/casal/img1.jpg" alt="Foto de David e Jamily" />
+      </div>
+      <div class="historia">
+        <h1>O amor sempre chega de forma despretensiosa e com força suficiente para se fazer eterno. <br> <br>
+
+          Em nossas vidas não foi diferente, nos encontramos em um momento que jamais imaginaríamos nos encontrar, mas
+          perfeito para nós e determinado por Deus. Fomos marcados por um instante, um olhar, um toque e as primeiras
+          palavras trocadas que mudaram nossas vidas completamente desde então. <br> <br>
+
+          Estamos a caminho do nosso sim e prestes a eternizar nosso amor. Ficamos imensamente felizes em partilhar
+          desse momento com vocês e tê-los fazendo parte da nossa história.
+        </h1>
+      </div>
+    </section>
+
+    <!--<section id="book">
+      <img src="" alt="foto 1">
+      <img src="" alt="foto 2">
+      <img src="" alt="foto 3">
+      <img src="" alt="foto 4">
+      <img src="" alt="foto 5">
+      <img src="" alt="foto 6">
+    </section>-->
+
+    <section id="event">
+      <div class="data">
+        <h2>O evento ocorrerá dia</h2>
+        <h1><span>15 </span> de Dezembro de <span> 2023</span></h1>
+      </div>
+
+      <div class="locais">
+        <div class="cerimonia dados">
+          <h2>A cerimonia religiosa será realizada ás <span>20h30min</span> na igreja Ass. de Deus - <span>Congregação
+              Lírio dos Vales</span>, localizada na <span>Rua Curralinho n. 1477</span> - Aeroporto, Breves-Pa.</h2>
+        </div>
+
+        <img src="./assents/imagens/LOGO_2.png" alt="" class="divisor">
+
+        <div class="festa dados">
+          <h2>Após a cerimônia os convidados serão recepcionados no <span>Espaço km1 Eventos</span> localizada na
+            <span>Av. Justo Chermont</span> - Aeroporto, Breves-Pa.</h2>
         </div>
       </div>
-      <h2>Em breve...</h2>
-    </header>
-    <footer class="section">
-      <div class="container grid">
-        <div class="brand">
-          <p>Desenvolvido por <span>Gabriel Lobato</span>.</p>
-        </div>
-        <div class="social grid">
-          <a href="https://instagram.com/aprendizjva" target="_blank">
-            <i class="icon-instagram"></i>
-          </a>
-          <a href="https://github.com/GabrieLobatoCabral" target="_blank">
-            <i class="icon-github"></i
-          ></a>
-          <a
-            href="https://www.linkedin.com/in/gabriel-cabral-9b2b69193"
-            target="_blank"
-            ><i class="icon-linkedin"></i
-          ></a>
+
+      <div class="contagem">
+        <h1>A contagem regressiva começou!</h1>
+        <table>
+          <tr>
+            <td>
+              <div class="numero" id="dia"></div>
+            </td>
+            <td>
+              <div class="numero" id="hora"></div>
+            </td>
+            <td>
+              <div class="numero" id="minuto"></div>
+            </td>
+            <td>
+              <div class="numero" id="segundo"></div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p class="legenda">Dias</p>
+            </td>
+            <td>
+              <p class="legenda">Horas</p>
+            </td>
+            <td>
+              <p class="legenda">Min</p>
+            </td>
+            <td>
+              <p class="legenda">Seg</p>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </section>
+
+    <section id="confirmacao">
+      <div class="presenca">
+        <h1>Sua presença é de extrema importância para gente,<br>
+          por isso gostaríamos que a confirmasse.</h1>
+        <a href="https://api.whatsapp.com/send?phone=+5591985027918&text=Olá! Gostatia de confimar minha presença neste importante evento."
+          class="button" target="_blank"><i></i>Confimar presença</a>
+        <h2>Confirme sua presença até o dia 30/11/2023.</h2>
+      </div>
+      <div class="logo presenca">
+        <img src="./assents/imagens/LOGO_1.png" alt="Letras D e J envolta de flores" />
+      </div>
+    </section>
+
+    <section id="present">
+      <h1>Sintam-se a vontade para escolherem com o que nos presentear, e assim serem marcados em cada cantinho do nosso
+        lar.</h1>
+      <h2>*Clique na loja após escolher o presente.</h2>
+      <div class="lojas">
+        <a href="https://api.whatsapp.com/send?phone=+5591992611414&text=Olá!"><img
+            src="./assents/imagens/lojas/loja capricho.png" alt="loja Capricho"></a>
+        <a href="https://api.whatsapp.com/send?phone=+5591991852957&text=Olá!"><img
+            src="./assents/imagens/lojas/point da infomatica.png" alt="loja Point da Informatica"></a>
+        <a href="./pix.html"><img src="./assents/imagens/lojas/pix.png" alt="Logo Pix"></a>
+      </div>
+      <h2 class="header">Lista de presentes</h2>
+      <div class="lista">
+        <li>Jogo de Prato</li>
+        <li>Jogo de Xícara</li>
+        <li>Jogo de Copos</li>
+        <li>Jogo de cama e banho</li>
+        <li>Panela de Pressão</li>
+        <li>Ferro de Passar</li>
+        <li>Sanduicheira</li>
+        <li>Tolher</li>
+        <li>Refratários</li>
+        <li>Cafeteria</li>
+        <li>Espremedor de frutos</li>
+        <li>Cortina com blackout</li>
+        <li>Ventilador de pé</li>
+        <li>Aspirador de pó</li>
+        <li>Edredom</li>
+        <li>Sapateira</li>
+        <li>Varal</li>
+        <li>Batedeira</li>
+        <li>Frigideira</li>
+        <li>Jogo de sobremesa</li>
+        <li>Airfryer</li>
+        <li>Jogo de travesseiro</li>
+        <li>Tabua de corte + kit de facas</li>
+      </div>
+    </section>
+
+    <section class="section" id="mensage">
+      <div class="grade swiper">
+        <header>
+          <h2 class="title">Gostaria de dizer algo aos noivos?</h2>
+          <a href="mailto:jamilyedavid@gmail.com?subject=Mensagem para os Noivos&body=Escreva%20uma%20mensagem%20curta%20e%20anexe%20uma%20foto%20para%20os%20noivos%20verem%20quem%20est%C3%A1%20lhes%20desejando%20felicidades.%20%F0%9F%98%8A"
+            class="button" target="_blank"><i></i>Envie sua mensagem</a>
+        </header>
+        <div class="mensage">
+          <h1 class="prime">Seja o primeiro a compartilhar.</h1>
+
+          <!--<section class="section" id="testimonials">
+            <div class="grade">
+              <div class="testimonials swiper">
+                <div class="swiper-wrapper">-->
+
+          <!--<div class="testimonials">
+                    <blockquote>
+                      <p>
+                        <span>&ldquo;</span>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. In
+                        rerum fugit dolore laudantium vitae distinctio minima
+                        mollitia, inventore, neque quasi ex ipsa!
+                      </p>
+                      <cite
+                        ><img
+                          src="./assents/imagens/profile/0.png"
+                          alt="Foto de "
+                        />
+                        Anonimo
+                      </cite>
+                    </blockquote>
+                  </div>-->
+
+          <!--<div class="testimonials">
+                    <blockquote>
+                      <p>
+                        <span>&ldquo;</span>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. In
+                        rerum fugit dolore laudantium vitae distinctio minima
+                        mollitia, inventore, neque quasi ex ipsa!
+                      </p>
+                      <cite
+                        ><img
+                          src="./assents/imagens/profile/0.png"
+                          alt="Foto de "
+                        />
+                        Anonimo
+                      </cite>
+                    </blockquote>
+                  </div>-->
+
+          <!--<div class="testimonials">
+                    <blockquote>
+                      <p>
+                        <span>&ldquo;</span>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. In
+                        rerum fugit dolore laudantium vitae distinctio minima
+                        mollitia, inventore, neque quasi ex ipsa!
+                      </p>
+                      <cite
+                        ><img
+                          src="./assents/imagens/profile/0.png"
+                          alt="Foto de "
+                        />
+                        Anonimo
+                      </cite>
+                    </blockquote>
+                  </div>-->
+
+          <!--<div class="testimonials">
+                    <blockquote>
+                      <p>
+                        <span>&ldquo;</span>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. In
+                        rerum fugit dolore laudantium vitae distinctio minima
+                        mollitia, inventore, neque quasi ex ipsa!
+                      </p>
+                      <cite
+                        ><img
+                          src="./assents/imagens/profile/0.png"
+                          alt="Foto de "
+                        />
+                        Anonimo
+                      </cite>
+                    </blockquote>
+                  </div>-->
+
         </div>
       </div>
-    </footer>
-  </body>
+      </div>
+    </section>
+    </section>
+  </main>
+
+  <footer class="section">
+    <div class="container">
+      <div class="brand">
+        <p>Desenvolvido por <span>Gabriel Lobato</span>.</p>
+      </div>
+      <div class="social">
+        <a href="https://instagram.com/aprendizjva" target="_blank">
+          <i class="icon-instagram"></i>
+        </a>
+        <a href="https://github.com/GabrieLobatoCabral" target="_blank">
+          <i class="icon-github"></i></a>
+        <a href="https://www.linkedin.com/in/gabriel-cabral-9b2b69193" target="_blank"><i class="icon-linkedin"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#home" class="back-to-top"><i class="icon-arrow-up"></i></a>
+
+  <!-- swiper -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!-- scrollreveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!-- main.js -->
+  <script src="main.js"></script>
+</body>
+
 </html>
