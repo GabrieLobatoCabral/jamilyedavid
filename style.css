@@ -632,7 +632,7 @@ nav.show div.icon-close {
 
 #present .lojas {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
 }
 
 #present .lojas img {
